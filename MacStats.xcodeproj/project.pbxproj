@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00F8F8125926B8B00E73B71 /* CpuUsage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00F8F8025926B8B00E73B71 /* CpuUsage.swift */; };
 		C023B8D225913A94003A4094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C023B8D125913A94003A4094 /* AppDelegate.swift */; };
 		C023B8D425913A94003A4094 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C023B8D325913A94003A4094 /* ContentView.swift */; };
 		C023B8D625913A95003A4094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C023B8D525913A95003A4094 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C00F8F8025926B8B00E73B71 /* CpuUsage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CpuUsage.swift; sourceTree = "<group>"; };
 		C023B8CE25913A94003A4094 /* MacStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C023B8D125913A94003A4094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C023B8D325913A94003A4094 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		C023B8D025913A94003A4094 /* MacStats */ = {
 			isa = PBXGroup;
 			children = (
+				C00F8F8025926B8B00E73B71 /* CpuUsage.swift */,
 				C023B8D125913A94003A4094 /* AppDelegate.swift */,
 				C023B8D325913A94003A4094 /* ContentView.swift */,
 				C023B8D525913A95003A4094 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			files = (
 				C023B8D425913A94003A4094 /* ContentView.swift in Sources */,
 				C023B8D225913A94003A4094 /* AppDelegate.swift in Sources */,
+				C00F8F8125926B8B00E73B71 /* CpuUsage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
